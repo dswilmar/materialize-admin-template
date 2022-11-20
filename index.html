@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Materialize Admin</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" integrity="sha512-QKC1UZ/ZHNgFzVKSAhV5v5j73eeL9EEN289eKAEFaAjgAiobVAnVv/AGuPbXsKl1dNoel3kNr6PYnSiTzVVBCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<div class="navbar-fixed">
+	<nav class="indigo darken-1">
+		<div class="container nav-wrapper">
+			<a href="#" class="brand-logo">Materialize Admin</a>
+			<a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="icon-menu"></i></a>
+			<ul id="nav-mobile" class="right hide-on-med-and-down">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="form.html">Form</a></li>
+				<li><a href="table.html">Table</a></li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<ul class="sidenav" id="mobile-nav">
+	<li><a href="index.html">Home</a></li>
+	<li><a href="form.html">Form</a></li>
+	<li><a href="table.html">Table</a></li>
+</ul>
+
+<div class="container">
+	<div class="row">
+		<div class="col s12 m12">
+			<h3>Home</h3>
+		</div>
+	</div>
+	<div class="row">
+	    <div class="col s12 m3">
+			<div class="card">
+				<div class="card-content indigo darken-1">					
+					<span class="card-title white-text"><i class="icon-people"></i> Users</span>
+					<p class="white-text">165</p>
+				</div>
+				<div class="card-action">
+					<a href="#" class="indigo-text darken-1">This is a link</a>          
+				</div>
+			</div>
+	    </div>
+	    <div class="col s12 m3">
+			<div class="card">
+				<div class="card-content red darken-1">					
+					<span class="card-title white-text"><i class="icon-like"></i> Likes</span>
+					<p class="white-text">98</p>
+				</div>
+				<div class="card-action">
+					<a href="#" class="indigo-text darken-1">This is a link</a>          
+				</div>
+			</div>
+	    </div>
+	    <div class="col s12 m3">
+			<div class="card">
+				<div class="card-content orange darken-1">					
+					<span class="card-title white-text"><i class="icon-eye"></i> Views</span>
+					<p class="white-text">232</p>
+				</div>
+				<div class="card-action">
+					<a href="#" class="indigo-text darken-1">This is a link</a>          
+				</div>
+			</div>
+	    </div>
+	    <div class="col s12 m3">
+			<div class="card">
+				<div class="card-content green darken-1">					
+					<span class="card-title white-text"><i class="icon-bubble"></i> Comments</span>
+					<p class="white-text">55</p>
+				</div>
+				<div class="card-action">
+					<a href="#" class="indigo-text darken-1">This is a link</a>          
+				</div>
+			</div>
+	    </div>
+  	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col s12 m6">
+			<div class="card">
+        		<div class="card-content">
+          			<a href="#" class="card-title indigo-text darken-1"><i class="icon-note"></i> Add new user</a>
+        		</div>
+      		</div>
+		</div>
+		<div class="col s12 m6">
+			<div class="card">
+        		<div class="card-content">
+          			<a href="#" class="card-title indigo-text darken-1"><i class="icon-magnifier"></i> Search users</a>
+        		</div>
+      		</div>
+		</div>
+	</div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+
+</script>
+</body>
+</html>
